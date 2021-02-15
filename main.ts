@@ -65,9 +65,9 @@ basic.forever(function () {
             pins.analogWritePin(AnalogPin.P1, 0)
             pins.analogWritePin(AnalogPin.P2, 1023)
         } else if (ModeA == 3) {
-            pins.analogWritePin(AnalogPin.P0, 0)
+            pins.analogWritePin(AnalogPin.P0, 1023)
             pins.analogWritePin(AnalogPin.P1, 1023)
-            pins.analogWritePin(AnalogPin.P2, 1023)
+            pins.analogWritePin(AnalogPin.P2, 0)
         } else {
             pins.analogWritePin(AnalogPin.P0, 0)
             pins.analogWritePin(AnalogPin.P1, 0)
